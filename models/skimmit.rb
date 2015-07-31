@@ -51,7 +51,6 @@ def highlight_text(input)
     end  
   end
   
-  
   all_text
   
 end
@@ -60,16 +59,6 @@ def find_important_words(input)
   
   $array_of_input = input.to_s.split(" ")
   
-  $changed_words = []
-  
-  $array_of_input.each do |word|
-    if word.include?(/[';:.,]/)
-      $changed_words << word
-      word.gsub!(/[';:.,]/, "")
-    end
-  end
-  
-  puts $changed_words
   # Change out the punctuation and run the tests to see if it is an important word
   # Put back in the punctiation after determination
   
