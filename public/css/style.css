@@ -1,0 +1,69 @@
+h1 {
+  color: Purple;
+}
+
+.title-section{
+  text-align: center;
+}
+
+
+h1 {
+  font-family: Futura;
+}
+
+h1 {
+    font-size: 470%;
+}
+
+h1 {
+  margin: 30px
+  
+}
+
+
+h2 {
+  font-size: 140%
+  
+}
+
+h3 {color: #2E2E2E
+  
+}
+
+h3 { margin: 50px
+  
+}
+
+{ 
+height:200px;
+    font-size:14pt;
+}
+
+textarea #text {
+width 58; 95%;
+height 58; 200px;
+}
+
+p.test {
+    width: 11em; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+    text-wrap: break-word;
+}
+
+body {
+  background-color: #E6E6E6;
+  color: purple;
+}
+
+input[type="text"] {
+    width: 800px;
+  height: 300px;
+}
+
+h1 {
+    text-shadow: 2px 2px #0080FF;
+}
+p {padding-left:50px;
+  padding-right:50px;
+}
